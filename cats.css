@@ -1,0 +1,46 @@
+body {
+    background-color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cat {
+    background-color: peru;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid green;
+    flex: 1;
+
+}
+
+.image {
+    border: 3px solid;
+    border-radius: 0.5em;
+
+}
+
+@media (min-width: 900px) {
+    .cats {
+    display: flex;
+    }
+}
+
+fieldset {
+
+    margin: 0.5em;
+    border: 0;
+}
+
+button {
+
+    padding: 0.5em;
+    border: 3px solid;
+    border-radius: 0.5em;
+}
+
+input {
+
+    padding: 0.5em;
+    border: 3px solid black;
+    border-radius: 0.5em;
+}
